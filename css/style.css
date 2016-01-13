@@ -526,6 +526,7 @@
 			cursor: default;
 			list-style: none;
 			padding-left: 0;
+			text-align: center;
 		}
 
 			ul.icons li {
@@ -837,7 +838,7 @@
 /* Wrapper */
 
 	.wrapper {
-		padding: 6em 0 4em 0;
+		padding: 6em 0 0em 0;
 	}
 
 		.wrapper.style1 {
@@ -878,14 +879,18 @@
 /* Header */
 
 	#skel-layers-wrapper {
-		padding-top: 3em;
+		padding-top: 6em;
+	}
+
+	#diff_logo {
+		padding-top: 20px;
 	}
 
 	#header {
 		background: #fff;
 		color: #555f66;
 		cursor: default;
-		height: 3em;
+		height: 6em;
 		left: 0;
 		line-height: 3em;
 		position: fixed;
@@ -942,6 +947,7 @@
 						color: #555f66;
 						display: inline-block;
 						text-decoration: none;
+						vertical-align: middle;
 					}
 
 						#header nav > ul > li a:hover {
